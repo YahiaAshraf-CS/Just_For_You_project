@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { NavLink } from 'react-router';
 import logoimg from '../assets/images/logoimg.jpeg';
 import { FaFacebook } from "react-icons/fa";
@@ -8,6 +7,10 @@ import { FaInstagram } from "react-icons/fa";
 import { FaTelegramPlane } from "react-icons/fa";
 import '../style/Footer.css';
 import Linkicon from '../components/links/Linkicon';
+
+
+
+
 
 
 
@@ -67,7 +70,5 @@ function Footer() {
 }
 
 export default Footer
-
-
 
 
