@@ -7,13 +7,7 @@ import { useNavigate } from "react-router";
 import { useEffect, useState } from 'react'; 
 import { NavLink } from 'react-router-dom';
 
-import ButtonLight from "../components/buttons/ButtonLight";
-import ButtonPink from "../components/buttons/ButtonPink";
-import logo from "../assets/images/logoimg.jpeg"
-import "../style/Navbar.css";
-import { useNavigate } from "react-router";
-import { useEffect, useState } from 'react'; 
-import { NavLink } from 'react-router-dom';
+
 
 function NavbarUser() {
     const navigate = useNavigate();
@@ -80,7 +74,4 @@ function NavbarUser() {
 
 export default NavbarUser
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 750267a (layoutbassem)
