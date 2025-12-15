@@ -36,13 +36,4 @@ def signup():
 
     return jsonify({"status": "success", "message": "User registered"}), 201
 
-@app.route("/users/<int:user_id>", methods=["DELETE"])
-def delete_user(user_id):
-    user = User.query.get(user_id)
-    if not user:
-        return jsonify({"status": "error", "message": "User not found"}), 404
-    
-    db.session.delete(user)
-    db.session.commit()
-    
-    return jsonify({"status": "success", "message": "User deleted"}), 200
+
